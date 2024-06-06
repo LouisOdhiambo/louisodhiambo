@@ -14,9 +14,9 @@ const Project = () => {
   const projects = [
     {
       img: project1,
-      name: "Movie App",
-      github_link: "https://github.com/Sridhar-C-25",
-      live_link: "https://myreactflix.netlify.app",
+      name: "Alicaj Website",
+      github_link: "https://github.com/LouisOdhiambo/Alicaj-Website",
+      live_link: "https://alicaj.co.ke/",
     },
     {
       img: project2,
@@ -30,19 +30,19 @@ const Project = () => {
       github_link: "https://github.com/Sridhar-C-25/highking",
       live_link: "https://highking01.netlify.app",
     },
-    {
-      img: project4,
-      name: "React Nav",
-      github_link:
-        "https://github.com/Sridhar-C-25/reacttailwindnavbar-with-dropdown",
-      live_link: "https://reacttailwindnavbar.netlify.app",
-    },
-    {
-      img: project5,
-      name: "Vue Country",
-      github_link: "https://github.com/Sridhar-C-25",
-      live_link: "https://vuecountry05.netlify.app",
-    },
+    // {
+    //   img: project4,
+    //   name: "React Nav",
+    //   github_link:
+    //     "https://github.com/Sridhar-C-25/reacttailwindnavbar-with-dropdown",
+    //   live_link: "https://reacttailwindnavbar.netlify.app",
+    // },
+    // {
+    //   img: project5,
+    //   name: "Vue Country",
+    //   github_link: "https://github.com/Sridhar-C-25",
+    //   live_link: "https://vuecountry05.netlify.app",
+    // },
   ];
   return (
     <section id="projects" className="py-10 text-white">
@@ -78,13 +78,13 @@ const Project = () => {
                   <img src={project_info.img} alt="" className="rounded-lg" />
                   <h3 className="text-xl my-4">{project_info.name}</h3>
                   <div className="flex gap-3">
-                    <a
+                    {/* <a
                       href={project_info.github_link}
                       target="_blank"
                       className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block"
                     >
                       Github
-                    </a>
+                    </a> */}
                     <a
                       href={project_info.live_link}
                       target="_blank"

@@ -1,11 +1,11 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../assets/images/project-1.png";
-import project2 from "../assets/images/project-2.jpg";
-import project3 from "../assets/images/project-3.jpg";
-import project4 from "../assets/images/project-4.jpg";
-import project5 from "../assets/images/project-5.png";
-import project_person from "../assets/images/project_person1.png";
+import project2 from "../assets/images/project2.png";
+import project3 from "../assets/images/project3.png";
+import project4 from "../assets/images/project4.png";
+// import project5 from "../assets/images/project-5.png";
+// import project_person from "../assets/images/project_person1.png";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
@@ -20,23 +20,23 @@ const Project = () => {
     },
     {
       img: project2,
-      name: "Job search Web App",
-      github_link: "https://github.com/Sridhar-C-25/jobsearchapp",
-      live_link: "https://myjobsearch.netlify.app",
+      name: "Lizola Fashion",
+      github_link: "https://github.com/LouisOdhiambo/Alicaj-Website",
+      live_link: "https://lizolafashion.com/",
     },
     {
       img: project3,
-      name: "Highking",
+      name: "Triple OK Law",
       github_link: "https://github.com/Sridhar-C-25/highking",
-      live_link: "https://highking01.netlify.app",
+      live_link: "https://www.tripleoklaw.com/",
     },
-    // {
-    //   img: project4,
-    //   name: "React Nav",
-    //   github_link:
-    //     "https://github.com/Sridhar-C-25/reacttailwindnavbar-with-dropdown",
-    //   live_link: "https://reacttailwindnavbar.netlify.app",
-    // },
+    {
+      img: project4,
+      name: "GA Insurance Kenya",
+      github_link:
+        "#",
+      live_link: "https://www.gainsuranceltd.com/ke/",
+    },
     // {
     //   img: project5,
     //   name: "Vue Country",
